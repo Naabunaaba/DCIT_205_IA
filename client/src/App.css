@@ -1,5 +1,5 @@
 :root {
-    --dark-blue:rgba(0, 8, 78, 0.884)
+    --dark-blue:#111111;
 }
 *{
     box-sizing: border-box;
