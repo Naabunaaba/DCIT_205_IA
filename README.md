@@ -30,3 +30,7 @@ This is an update of the computer science website that has more sophisticated fu
 - Reflect on the skills and knowledge gained during the project.
 - Discuss any challenges faced and the lessons learned.
 - Use Markdown syntax for formatting.
+
+# This project was created by
+## Nana Owusu Frimpong
+## 11205912
