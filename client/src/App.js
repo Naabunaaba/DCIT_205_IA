@@ -6,16 +6,12 @@ import Home from './pages/home';
 import Faculty from './pages/faculty';
 import About from './pages/about';
 import Social from './pages/social';
-// import Faq from './pages/faq/faq';
-// import NotFound from './pages/404';
-// import Contact from './pages/contact/contact';
-// import Sotd from './pages/sotd/sotd';
-// import Resources from './pages/resources/resources';
 import Events from './pages/events';
 import Research from './pages/research';
 import Programmers from './pages/programmers';
 import TechTeam from './pages/techteam';
-// import TipsLayout from './pages/tips/tipsLayout';
+import Tips from './pages/tips';
+import Contact from './pages/contact';
 
 function App() {
   return (
@@ -31,10 +27,8 @@ function App() {
            <Route path='/programmers' element={<Programmers />}/>
            <Route path='/tech-team' element={<TechTeam />}/>
            <Route path='/social' element={<Social />}/>
-           {/*
+           <Route path='/tips' element={<Tips />}/>
            <Route path='/contact' element={<Contact />}/>
-           <Route path='/faq' element={<Faq />}/>
-           */}
          </Routes>
          <Footer />
       </BrowserRouter>
